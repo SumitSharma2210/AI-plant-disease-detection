@@ -1,0 +1,13 @@
+# Ignore virtual environments
+.venv/
+# Ignore temporary files
+__pycache__/
+*.pyc
+*.pyo
+# Ignore large model files
+model/
+# Ignore credentials (if any)
+app/credentials.toml
+# Ignore OS-generated files
+.DS_Store
+Thumbs.db
